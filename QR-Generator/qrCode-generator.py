@@ -6,8 +6,8 @@ qr=qrcode.QRCode(
     border=5
 )
 
-data = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
+data = "https://twitter.com/BumpyRide8" 
 qr.add_data(data)
 qr.make(fit=True)
 img=qr.make_image(fill_color="black", back_color="white")
-img.save("qr.png")
+img.save("twitter.png")
